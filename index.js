@@ -68,7 +68,7 @@ switch (grade) {
 }*/
 
 let grade;
-let results = 64;
+let results = 76;
 switch (true) {
     case (results <= 100 && results >= 85):
         grade = "A+";
@@ -115,6 +115,6 @@ else if (grade == "D") {
 else {
     result = ("Fail");
 }
-console.log(grade + ' ' + result);
+console.log(grade + ' - ' + result);
 
 
